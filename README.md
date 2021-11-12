@@ -1,5 +1,10 @@
 # fedora 常用设置
 
+## 笔记本盒盖不关机
+
+    sudo vi /etc/systemd/logind.conf
+    HandleLidSwitch ignore
+
 ## 自动登录用户
 
     打开系统设置=>用户=>单击图标 Automatic Login
