@@ -2,10 +2,10 @@
 
 ## 从wayland 切换 x11
 
-  sudo vi /etc/gdm/custom.conf
-  [daemon]
-  WaylandEnable=false
-  DefaultSession=gnome-xorg.desktop
+   sudo vi /etc/gdm/custom.conf
+   [daemon]
+   WaylandEnable=false
+   DefaultSession=gnome-xorg.desktop
 
 ## 开机启动 APP
 
