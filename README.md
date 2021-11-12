@@ -10,4 +10,4 @@
 ## 开机启动 APP
 
     mkdir ~/.config/autostart
-    mv /usr/share/applications/rustdesk.desktop ~/.config/autostart
+    cp /usr/share/applications/rustdesk.desktop ~/.config/autostart
