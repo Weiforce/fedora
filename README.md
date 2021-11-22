@@ -1,5 +1,9 @@
 # fedora 常用设置
 
+## 输入法
+
+    rpm-ostree install *jidian*
+
 ## 笔记本盒盖不关机
 
     sudo vi /etc/systemd/logind.conf
