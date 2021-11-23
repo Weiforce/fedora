@@ -1,5 +1,11 @@
 # fedora 常用设置
 
+## nvidia driver
+
+    wget -O /etc/yum.repos.d/inttf.repo https://rpms.if-not-true-then-false.com/inttf.repo
+    # vi /etc/yum.repos.d/inttf.repo 
+    # change fedora35 to fedora34
+
 ## 输入法
 
     rpm-ostree install *jidian*
