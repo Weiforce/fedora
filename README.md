@@ -1,6 +1,10 @@
 # fedora 常用设置
 
-## nvidia driver
+## build tools
+
+    rpm-ostree install @development-tools @development-libraries
+
+## nvidia container driver
 
     wget -O /etc/yum.repos.d/inttf.repo https://rpms.if-not-true-then-false.com/inttf.repo
     # vi /etc/yum.repos.d/inttf.repo 
