@@ -1,4 +1,12 @@
-# fedora 常用设置
+# fedora 常用命令
+
+## 软件安装
+
+ - android模拟器
+
+    
+    snap install anbox --beta --devmode
+    
 
 ## build tools
 
