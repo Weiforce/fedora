@@ -4,19 +4,23 @@
 
  - android模拟器
 
-    
     snap install anbox --beta --devmode
     
+## 驱动程序
 
-## build tools
+ - nvdia driver
 
-    rpm-ostree install @development-tools @development-libraries
-
-## nvidia container driver
+    编辑 /etc/nvidia-container-runtime/config.toml and change #no-cgroups=false to no-cgroups=true
+    
+ - nvidia container driver
 
     wget -O /etc/yum.repos.d/inttf.repo https://rpms.if-not-true-then-false.com/inttf.repo
     # vi /etc/yum.repos.d/inttf.repo 
     # change fedora35 to fedora34
+
+## build tools
+
+    rpm-ostree install @development-tools @development-libraries
 
 ## 输入法
 
