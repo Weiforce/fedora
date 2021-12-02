@@ -1,14 +1,10 @@
 # fedora 常用命令
 
 ## 软件安装
-
- - android模拟器
-
-    snap install anbox --beta --devmode
-    
+ 
 ## 驱动程序
 
- - nvdia driver
+### nvdia driver
 
     rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
     rpm-ostree remove akmod-nvidia xorg-x11-drv-nvidia-cuda
