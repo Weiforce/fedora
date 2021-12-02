@@ -18,6 +18,8 @@
     wget https://rpms.if-not-true-then-false.com/fedora34/x86_64/nvidia-container-runtime-3.4.0-1.x86_64.rpm
     wget https://rpms.if-not-true-then-false.com/fedora34/x86_64/nvidia-container-toolkit-1.3.0-2.x86_64.rpm
     rpm-ostree install libnvidia-container1-1.3.0-1.x86_64.rpm libnvidia-container1-debuginfo-1.3.0-1.x86_64.rpm libnvidia-container-devel-1.3.0-1.x86_64.rpm libnvidia-container-static-1.3.0-1.x86_64.rpm libnvidia-container-tools-1.3.0-1.x86_64.rpm nvidia-container-runtime-3.4.0-1.x86_64.rpm nvidia-container-toolkit-1.3.0-2.x86_64.rpm 
+    
+    sudo sed -i 's/#no-cgroups = false/no-cgroups = true/' /etc/nvidia-container-runtime/config.toml
 
 ## build tools
 
