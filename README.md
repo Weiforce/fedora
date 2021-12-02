@@ -10,13 +10,8 @@
 
  - nvdia driver
 
-    编辑 /etc/nvidia-container-runtime/config.toml and change #no-cgroups=false to no-cgroups=true
-    
- - nvidia container driver
-
-    wget -O /etc/yum.repos.d/inttf.repo https://rpms.if-not-true-then-false.com/inttf.repo
-    # vi /etc/yum.repos.d/inttf.repo 
-    # change fedora35 to fedora34
+    rpm-ostree install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
+    rpm-ostree install akmod-nvidia xorg-x11-drv-nvidia-cuda
 
 ## build tools
 
