@@ -1,5 +1,9 @@
 # fedora 常用命令
 
+## 软件配置
+
+    设置 -> 键盘 -> 极点加入 -> ctrl + space -> shift + space
+
 ## 软件安装
  
 ## 驱动程序
