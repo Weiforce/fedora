@@ -8,9 +8,9 @@
  
 ## 驱动程序
 
-## 库安装
+## 库安装 for adop
 
-    rpm-ostree install mesa-libGLU
+    rpm-ostree install mesa-libGLU freeimage
 
 ### nvdia driver
 
