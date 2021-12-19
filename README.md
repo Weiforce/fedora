@@ -10,7 +10,7 @@
 
 ## 库安装 for adop
 
-    rpm-ostree install mesa-libGLU freeimage
+    rpm-ostree install mesa-libGLU freeimage assimp
 
 ### nvdia driver
 
