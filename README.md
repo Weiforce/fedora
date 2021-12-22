@@ -1,5 +1,10 @@
 # fedora 常用命令
 
+## adop
+
+- https://stackoverflow.com/questions/44166269/libgl-error-failed-to-load-driver-swrast-in-docker-container
+- https://github.com/gklingler/docker3d
+
 ## 软件配置
 
     设置 -> 键盘 -> 极点加入 -> ctrl + space -> shift + space
