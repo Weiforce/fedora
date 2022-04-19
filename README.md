@@ -2,11 +2,17 @@
 
 ## x11 share
 
-    # OpenGL version string must update to 4.6.0
-    rpm-ostree install mesa-libGLU
-    xhost +
-    sudo docker run -it --rm -v /home/core/data/adop:/ADOP -e DISPLAY=:0 -v /tmp/.X11-unix:/tmp/.X11-unix --privileged --gpus all --entrypoint="" ivories/adop6 bash
+    sudo vi /etc/gdm/custom.conf
     
+    [security]
+    DisallowTCP=false
+
+    [xdmcp]
+    enable=true
+
+    sudo firewall-cmd --permanent --add-service=xdmcp
+    sudo firewall-cmd --reload
+
 
 ## adop
 
