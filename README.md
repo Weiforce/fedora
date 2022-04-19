@@ -12,6 +12,8 @@
 
     sudo firewall-cmd --permanent --add-service=xdmcp
     sudo firewall-cmd --reload
+    
+    xhost +
 
 
 ## adop
