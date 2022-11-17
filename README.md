@@ -75,6 +75,10 @@ rpm-ostree install google-chrome-stable
 ## build tools
 
     rpm-ostree install @development-tools @development-libraries
+    
+## 重复登录问题
+
+- https://www.maketecheasier.com/fix-ubuntu-login-loop/
 
 ## 输入法
 
